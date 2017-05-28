@@ -1,0 +1,206 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat"> 
+<html dir="ltr" lang="nl-be" class="no-js" prefix="og: http://ogp.me/ns#">
+  <head>
+    <!-- Character encoding -->
+	  <meta charset="UTF-8"> 
+	  <!-- Latest version of rendering engine -->
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- Mobile Viewport -->
+	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Most important SEO tag -->
+    <title>ML Design</title>
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <!-- Other SEO friendly tags -->	
+    <meta name="description" content="Lees hier alles over nieuwe media, html5 en andere ontwikkelingen in webdevelopment en mobile development. De docenten NMD willen graag hun kennis delen met jou!">
+    <meta name="keywords" content="HTML5, JavaScript, jQuery, CSS3">
+    <meta name="author" content="Arteveldehogeschool - Bachelor in de grafische en digitale media | MMP">
+    <meta name="copyright" content="Copyright 2010-17 Arteveldehogeschool. All Rights Reserved.">
+    <!-- OpenGraph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content=">HTML5 | Webdesign II | GDM">
+    <meta property="og:description" content="Lees hier alles over nieuwe media, html5 en andere ontwikkelingen in webdevelopment en mobile development. De docenten NMD willen graag hun kennis delen met jou!">
+    <meta property="og:url" content="http://www.gdm.gent/">
+    <meta property="og:site_name" content="GDM.GENT">
+    <meta property="og:image" content="assets/images/ahs.png">
+    <meta property="og:image:width" content="129">
+    <meta property="og:image:height" content="129">
+    <!-- humans.txt -->
+    <link rel="author" type="text/plain" href="/humans.txt">
+     <!-- DNS prefech for CDN -->
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="//code.jquery.com">
+    <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+    <!-- Icons -->
+    <!-- http://realfavicongenerator.net/ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/favicon.png">
+    <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+    <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+    <link rel="manifest" href="assets/icons/manifest.json">
+    <link rel="mask-icon" href="assets/icons/safari-pinned-tab.svg" color="#ee9900">
+    <link rel="shortcut icon" href="assets/icons/favicon.png">
+    <link href="css/font-awesome.min.css" rel="stylesheet"/>
+    <meta name="apple-mobile-web-app-title" content="GDM">
+    <meta name="application-name" content="GDM">
+    <meta name="msapplication-config" content="assets/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Stylesheets: Vendors -->
+    <link rel="stylesheet" media="all" href="vendor/normalize/normalize.css">
+    <!-- Stylesheets: App -->
+    <link rel="stylesheet" media="all" href="css/fonts.css">
+    <link rel="stylesheet" media="all" href="css/typography.css">
+    <link rel="stylesheet" media="all" href="css/main.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+    <!-- Modernizr: feature detection -->
+    <script src="vendor/modernizr/modernizr.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+</head>
+  </head>
+<body>
+    <div id="wrapper">
+      <div id ="banner-wrapper">
+        <header>
+          <div id="header-inner">
+            <a href="index.html" id="logo"></a>
+            <nav>
+              <a href="#" id="menu-icon"</a>
+              <ul>
+                <li><a href="index.html" class="current"> Home</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="onsteam.html">Our Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+
+<!--- Slider Start -->
+		<script src="js/jquery.bxslider.min.js"></script>
+    <div class="slider-wrap">
+      <section class="slider">
+        <ul class="slider1">
+          <li><img src="assets/images/desktop-1.png"></li>
+          <li><img src="assets/images/desktop-2.png"></li>
+          <li><img src="assets/images/desktop-3.png"></li>
+
+        </ul>
+      </section>
+    </div>
+
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+		</script>
+<!--- Slider End -->
+      </div>
+<!--- Start 3 kolommen icons -->
+      <section class="one-third">
+        <div class="icon-wrap"> 
+          <td><i class="fa fa-desktop"></i></td>
+
+        </div>
+        <h3>Web Design</h3>
+
+      </section>
+      <section class="one-third">
+        <div class="icon-wrap">
+            <td><i class="fa fa-pencil-square-o"></i></td>
+        </div>
+        <h3>Digital Graphics</h3>
+      </section>
+      <section class="one-third">
+        <div class="icon-wrap">
+            <td><i class="fa fa-file-code-o"></i></td>
+        </div>
+        <h3>Development</h3>
+      </section>
+
+<!--- Einde 3 kolommen icons -->
+<div class="clearfix-padding"></div>
+<section class="linker-kolom">
+        <p> We create strategies based on the outcomes youe expect to see for your company. The process for developping award-winning brands and campaigns begins by looking at the big picture. Every effort that goes into development and production of a project should be made with the end goal, or rather, the Big Picture in mind.</p>
+      </section>
+
+      <section class="sidebar">
+        <img src="assets/images/computer-white.png">
+      </section>
+<!--- Einde linker kolom and sidebar image -->
+
+<div class="clearfix-padding">	</div>
+
+    <section class="one-third-padding">
+        <h3> Our Skills One</h3>
+        <img src="assets/images/computer-gal.png">
+        <p> We start each project by gathering the information and client's requipmpent, which means a lots of client discussions &amp; research.</p>
+    </section>
+    <section class="one-third-padding">
+        <h3> Our Skills Two</h3>
+        <img src="assets/images/900-644.png">
+        <p> We start each project by gathering the information and client's requipmpent, which means a lots of client discussions &amp; research.</p>
+    </section>
+    <section class="one-third-padding">
+        <h3> Our Skills Three</h3>
+        <img src="assets/images/computer-guy.png">
+        <p> We start each project by gathering the information and client's requipmpent, which means a lots of client discussions &amp; research.</p>
+    </section>
+<!--- Einde One Third padding sectie -->
+
+<div class="clearfix-padding"></div>
+  </div>	
+  <!-- END wrapper -->
+
+<!--- Start footer -->
+    <footer>
+        <div id="banner-wrapper">
+            <div class="icon-text">
+                <div class="icon-text-icon">
+                    <ul class="footer-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="icon-text-text">
+                    <ul class="social">
+                        <li><a href="mailto:email@website.com"><i class="fa fa-envelope-o"></i></a></li>
+                        <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="second">
+        <p>&copy; ML Design</p>
+    </footer>
+<!--- einde footer -->
+
+</body>
+</html>
